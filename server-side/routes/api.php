@@ -13,16 +13,16 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::group(['prefix' => 'post'], function() {
-    Route::get('/', 'PostController@index');
-    Route::get('{id}', 'PostController@show');
-    Route::post('/', 'PostController@store');
-    Route::put('{id}', 'PostController@update');
-    Route::delete('{id}', 'PostController@destroy');
+Route::group(['prefix' => 'contact'], function() {
+    Route::get('/', 'ContactController@index');
+    Route::get('{id}', 'ContactController@show');
+    Route::post('/', 'ContactController@store');
+    Route::put('{id}', 'ContactController@update');
+    Route::delete('{id}', 'ContactController@destroy');
 
 });
 
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+    return response()->json($request->user());
 });
