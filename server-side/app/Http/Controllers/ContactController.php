@@ -18,10 +18,10 @@ class ContactController extends Controller
 
 
 
-    public function create()
-    {
-        return view('contacts.create');
-    }
+//    public function create()
+//    {
+////        return view('contacts.create');
+//    }
 
 
     public function store(Request $request)
@@ -32,14 +32,6 @@ class ContactController extends Controller
           'email'=>'required'
         ]);
 
-//        $contact = new Contact([
-//            'first_name'=> $request->get('first_name'),
-//            'last_name'=> $request->get('last_name'),
-//            'email'=> $request->get('email'),
-//            'job_title'=> $request->get('job_title'),
-//            'city' => $request->get('city'),
-//            'country' => $request->get('country')
-//        ]);
         $contact = new Contact();
         $contact->first_name = $request->get('first_name');
         $contact->last_name = $request->get('last_name');
@@ -69,10 +61,10 @@ class ContactController extends Controller
     }
 
 
-    public function edit($id)
-    {
-
-    }
+//    public function edit($id)
+//    {
+//
+//    }
 
 
     public function update(Request $request, $id)
