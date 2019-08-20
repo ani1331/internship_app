@@ -6,17 +6,15 @@ use App\Post;
 use Illuminate\Http\Request;
 use Illuminate\Rounting\Route;
 use App\Contact;
+use Illuminate\Support\Facades\Validator;
 
 class ContactController extends Controller
 {
     public function index()
     {
-        $contacts = Contact::query()->get();
+        $contacts = Contact::all();
         return $contacts;
-
     }
-
-
 
 //    public function create()
 //    {
@@ -26,38 +24,37 @@ class ContactController extends Controller
 
     public function store(Request $request)
     {
+        //echo "gffgfg"; exit;
         $request->validate([
           'first_name'=>'required',
           'last_name'=>'required',
           'email'=>'required'
         ]);
 
-        $contact = new Contact();
-        $contact->first_name = $request->get('first_name');
-        $contact->last_name = $request->get('last_name');
-        $contact->email = $request->get('email');
-        $contact->job_title = $request->get('job_title');
-        $contact->city = $request->get('city');
-        $contact->country = $request->get('country');
+        $contact = new Contact([
+            'first_name' => $request->get('first_name'),
+            'last_name' => $request->get('last_name'),
+            'email' => $request->get('email'),
+//
+        ]);
+
         $contact->save();
 //        return redirect('/contacts')->with('success','Contact saved!');
         return response()->json(
-            ["status"=>"success"]
-        );
-
+            "row created successfully");
     }
 
 
     public function show($id)
     {
-        $model = Post::query()->find($id);
-        if (!$model) {
+        $contact = Contact::find($id);
+        if (!$contact) {
             return response()->json([
                 'message' => 'Post does not exist',
                 'status' => 'fail',
             ]);
         }
-        return $model;
+        return $contact;
     }
 
 
@@ -69,40 +66,54 @@ class ContactController extends Controller
 
     public function update(Request $request, $id)
     {
-        $model = Post::query()->find($id);
-        if (!$model) {
-            return response()->json([
-                'message' => 'Post does not exist',
-                'status' => 'fail',
-            ]);
-        }
-        $model->first_name = $request->get('first_name');
-        $model->last_name = $request->get('last_name');
-        $model->email = $request->get('email');
-        $model->job_title = $request->get('job_title');
-        $model->city = $request->get('city');
-        $model->country = $request->get('country');
-        $model->save();
+        $data = $request->except(['_method']);
+
+        $validator = Validator::make($data, [
+            'first_name'=>'required',
+            'last_name'=>'required',
+            'email'=>'required|email'
+        ]);
+
+//        dd($validator->fails());
+
+        // @TODO check validation
+
+//        $contact = Contact::find($id);
+
+//        if (!$contact) {
+//            return response()->json([
+//                'message' => 'Post does not exist',
+//                'status' => 'fail',
+//            ]);
+//        }
+//        $contact->first_name = $request->get('first_name');
+//        $contact->last_name = $request->get('last_name');
+//        $contact->email = $request->get('email');
+//        $contact->job_title = $request->get('job_title');
+//        $contact->city = $request->get('city');
+//        $contact->country = $request->get('country');
+//        $contact->save();
+        $result = Contact::where('id', $id)->update($data);
 
         return response()->json([
-            'message' => 'Post Updated Successfully',
+            'message' => 'Contact Updated Successfully',
             'status' => 'success',
-        ]);
+        ], 200);
     }
 
 
     public function destroy($id)
     {
-        $model = Post::query()->find($id);
-        if (!$model) {
+        $contact = Contact::find($id);
+        if (!$contact) {
             return response()->json([
                 'message' => 'Post does not exist',
                 'status' => 'fail',
             ]);
         }
-        $model->delete();
+        $contact->delete();
         return response()->json([
-            'message' => 'Post Deleted Successfully',
+            'message' => 'Contacts Deleted Successfully',
             'status' => 'success',
         ]);
     }

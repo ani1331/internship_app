@@ -2,13 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4771c93-eeef-4021-9c4c-a5865b52df3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server-side/app/Http/Middleware/Cors.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-side/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Internship_App.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Internship_App.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-side/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-side/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-side/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-side/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/app/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/app/Contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server-side/app/Http/Controllers/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/app/Http/Controllers/ContactController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server-side/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/database/migrations/2019_08_12_181626_create_contacts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/database/migrations/2019_08_12_181626_create_contacts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/database/migrations/2019_08_14_102954_create_tasks_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/database/migrations/2019_08_14_103003_create_projects_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/resources/js/components/ExampleComponent.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/webpack.mix.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,15 +70,16 @@
         <item name="appdb: schema" type="76f4a085:MysqlImplModel$Schema" />
         <item name="contacts: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="appdb: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="posts: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,7 +91,7 @@
       </set>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
     <include_path>
       <path value="$PROJECT_DIR$/server-side/vendor/phpunit/php-text-template" />
       <path value="$PROJECT_DIR$/server-side/vendor/symfony/finder" />
@@ -159,22 +174,34 @@
       <path value="$PROJECT_DIR$/server-side/vendor/symfony/polyfill-mbstring" />
       <path value="$PROJECT_DIR$/server-side/vendor/symfony/http-foundation" />
       <path value="$PROJECT_DIR$/server-side/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/server-side/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/server-side/vendor/barryvdh/laravel-cors" />
     </include_path>
   </component>
   <component name="ProjectId" id="1PKlb1IvyS4B5gFozrYiMdUsRmc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP&#10;TEXT" />
     <property name="jsx.switch.disabled" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server-side/artisan" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server-side/resources/js/components" />
+      <recent name="$PROJECT_DIR$/server-side/resources/views" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -188,30 +215,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+  <component name="RunManager" selected="PHP Script.Server">
+    <configuration name="Server" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/server-side/artisan" scriptParameters="serve">
+      <method v="2" />
+    </configuration>
+    <configuration name="Client" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/client-side/package.json" />
       <command value="start" />
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="npm.Client" />
+      <item itemvalue="PHP Script.Server" />
+    </list>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@13d129a4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@13d129a4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@323cbe0" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -228,7 +252,17 @@
       <option name="presentableId" value="Default" />
       <updated>1565630736410</updated>
       <workItem from="1565630737636" duration="31140000" />
-      <workItem from="1565764043935" duration="6931000" />
+      <workItem from="1565764043935" duration="10345000" />
+      <workItem from="1565784130000" duration="13719000" />
+      <workItem from="1565858962017" duration="22143000" />
+      <workItem from="1565944021312" duration="1459000" />
+      <workItem from="1565963349122" duration="2562000" />
+      <workItem from="1566130818977" duration="1475000" />
+      <workItem from="1566132313004" duration="1480000" />
+      <workItem from="1566145417095" duration="1483000" />
+      <workItem from="1566148984782" duration="4365000" />
+      <workItem from="1566198325469" duration="10267000" />
+      <workItem from="1566212051148" duration="18475000" />
     </task>
     <servers />
   </component>
