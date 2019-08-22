@@ -2,27 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4771c93-eeef-4021-9c4c-a5865b52df3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client-side/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Internship_App.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Internship_App.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-side/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-side/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-side/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-side/app/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/app/Contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-side/app/Http/Controllers/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/app/Http/Controllers/ContactController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-side/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/app/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server-side/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server-side/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-side/database/migrations/2019_08_12_181626_create_contacts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/database/migrations/2019_08_12_181626_create_contacts_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-side/database/migrations/2019_08_14_102954_create_tasks_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-side/database/migrations/2019_08_14_103003_create_projects_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-side/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-side/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-side/resources/js/components/ExampleComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-side/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/config/auth.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server-side/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-side/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-side/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/webpack.mix.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -176,6 +166,21 @@
       <path value="$PROJECT_DIR$/server-side/vendor/symfony/var-dumper" />
       <path value="$PROJECT_DIR$/server-side/vendor/asm89/stack-cors" />
       <path value="$PROJECT_DIR$/server-side/vendor/barryvdh/laravel-cors" />
+      <path value="$PROJECT_DIR$/server-side/vendor/laravel/passport" />
+      <path value="$PROJECT_DIR$/server-side/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/server-side/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/server-side/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/server-side/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/server-side/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/server-side/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/server-side/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/server-side/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/server-side/vendor/zendframework/zend-diactoros" />
+      <path value="$PROJECT_DIR$/server-side/vendor/league/oauth2-server" />
+      <path value="$PROJECT_DIR$/server-side/vendor/league/event" />
+      <path value="$PROJECT_DIR$/server-side/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/server-side/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/server-side/vendor/symfony/psr-http-message-bridge" />
     </include_path>
   </component>
   <component name="ProjectId" id="1PKlb1IvyS4B5gFozrYiMdUsRmc" />
@@ -188,7 +193,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP&#10;TEXT" />
     <property name="jsx.switch.disabled" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server-side/artisan" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -215,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.Server">
+  <component name="RunManager" selected="npm.Client">
     <configuration name="Server" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/server-side/artisan" scriptParameters="serve">
       <method v="2" />
     </configuration>
@@ -262,7 +267,13 @@
       <workItem from="1566145417095" duration="1483000" />
       <workItem from="1566148984782" duration="4365000" />
       <workItem from="1566198325469" duration="10267000" />
-      <workItem from="1566212051148" duration="18475000" />
+      <workItem from="1566212051148" duration="22137000" />
+      <workItem from="1566385481835" duration="688000" />
+      <workItem from="1566386494228" duration="3685000" />
+      <workItem from="1566399013990" duration="17000" />
+      <workItem from="1566419967109" duration="3494000" />
+      <workItem from="1566492902780" duration="149000" />
+      <workItem from="1566493249347" duration="32000" />
     </task>
     <servers />
   </component>

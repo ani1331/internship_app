@@ -8,6 +8,7 @@
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/barryvdh/laravel-cors" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/beyondcode/laravel-dump-server" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/defuse/php-encryption" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/dnoegel/php-xdg-base-dir" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/doctrine/inflector" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/doctrine/instantiator" />
@@ -17,13 +18,21 @@
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/erusev/parsedown" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/fideloper/proxy" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/filp/whoops" />
+      <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/firebase/php-jwt" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/fzaninotto/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/guzzlehttp/psr7" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/hamcrest/hamcrest-php" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/jakub-onderka/php-console-color" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/jakub-onderka/php-console-highlighter" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/laravel/passport" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/laravel/tinker" />
+      <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/lcobucci/jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/league/event" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/league/oauth2-server" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/mockery/mockery" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/monolog/monolog" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/myclabs/deep-copy" />
@@ -38,6 +47,7 @@
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/phpdocumentor/reflection-docblock" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/phpdocumentor/type-resolver" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/phpseclib/phpseclib" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/phpspec/prophecy" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/phpunit/php-code-coverage" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/phpunit/php-file-iterator" />
@@ -46,9 +56,12 @@
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/phpunit/php-token-stream" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/phpunit/phpunit" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/psr/http-message" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/psr/log" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/psr/simple-cache" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/ralouphie/getallheaders" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/ramsey/uuid" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/sebastian/code-unit-reverse-lookup" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/sebastian/comparator" />
@@ -78,6 +91,7 @@
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/symfony/polyfill-php72" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/symfony/polyfill-php73" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/symfony/psr-http-message-bridge" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/symfony/routing" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/symfony/service-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/symfony/translation" />
@@ -87,6 +101,7 @@
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/tijsverkoyen/css-to-inline-styles" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/server-side/vendor/zendframework/zend-diactoros" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
