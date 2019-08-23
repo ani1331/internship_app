@@ -8,7 +8,7 @@ import { Provider } from 'react-redux';
 import './stylesheets/index.css';
 import App from './components/App';
 import rootReducer from './reducers';
-import { getArticles } from './actions';
+// import { getArticles } from './actions';
 
 const store = createStore(rootReducer, applyMiddleware(thunk, logger));
 

@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {Link} from 'react-router-dom';
 import '../stylesheets/App.css';
-import ArticleEdit from './ArticleEdit';
+// import ArticleEdit from './ArticleEdit';
 import {getArticles, deleteArticle} from "../actions";
 
 class ArticleList extends Component {
@@ -18,7 +18,7 @@ class ArticleList extends Component {
                     <table className="table table-striped">
                         <thead>
                         <tr>
-                            <th></th>
+                            <th>Id</th>
                             <th>Name</th>
                             <th>Last Name</th>
                             <th>Email</th>
@@ -27,7 +27,7 @@ class ArticleList extends Component {
                         <tbody>
                         {this.props.articles.map(article => (
                             <tr key={article.id}>
-                                <td><Link to={`/articles/${article.id}`}>{article.id}</Link></td>
+                                <td>{article.id}</td>
                                 <td>{article.first_name}</td>
                                 <td>{article.last_name}</td>
                                 <td>{article.email}</td>

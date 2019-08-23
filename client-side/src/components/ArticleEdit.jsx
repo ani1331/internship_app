@@ -1,7 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import {updateArticle} from '../actions';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 
 
 class ArticleEdit extends React.Component {
@@ -33,9 +33,7 @@ class ArticleEdit extends React.Component {
         return (
 
             <div>
-                {/*<h1>Edit {this.props.article.first_name}</h1>*/}
                 <h1>Edit</h1>
-                {/*<form onSubmit={this.handleSubmit}>*/}
                 <form >
                     <div className="form-group">
                         <label>First Name</label>

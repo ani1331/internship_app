@@ -3,17 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c4771c93-eeef-4021-9c4c-a5865b52df3d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-side/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-side/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/actions/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-side/src/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/components/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-side/src/components/ArticleEdit.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/components/ArticleEdit.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-side/src/components/ArticleList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/components/ArticleList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-side/src/reducers/articlesReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/reducers/articlesReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-side/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-side/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-side/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-side/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-side/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-side/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-side/src/stylesheets/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/stylesheets/App.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -325,7 +319,7 @@
       <workItem from="1566492902780" duration="149000" />
       <workItem from="1566493249347" duration="32000" />
       <workItem from="1566493336553" duration="2954000" />
-      <workItem from="1566509948887" duration="9286000" />
+      <workItem from="1566509948887" duration="14594000" />
     </task>
     <servers />
   </component>
@@ -349,5 +343,15 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/server-side" />
     </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/../Internship_App (copy)/server-side/routes/api.php</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
