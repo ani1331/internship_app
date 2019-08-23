@@ -1,6 +1,7 @@
 import axios from 'axios';
 import history from '../history';
 
+
 export const RECEIVE_ARTICLES = 'GET_ARTICLES';
 export const ADD_ARTICLE = 'ADD_ARTICLE';
 export const RECEIVE_ARTICLE = 'RECEIVE_ARTICLE';
@@ -55,6 +56,7 @@ export const getArticle = (id) => {
 };
 
 export const deleteArticle = (id) => {
+
     return (dispatch) => {
         return axios.delete(`${apiUrl}/${id}`)
             .then(response => {
