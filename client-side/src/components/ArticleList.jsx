@@ -32,7 +32,7 @@ class ArticleList extends Component {
                                 <td>{article.last_name}</td>
                                 <td>{article.email}</td>
                                 <td>
-                                    <Link className="btn btn-primary" to={`/contact/:${article.id}`}>Edit</Link>
+                                    <Link className="btn btn-primary" to={`/contact/${article.id}`}>Edit</Link>
                                     <button type="button" className="btn btn-danger"
                                             onClick={() => this.props.deleteArticle(article.id)}>Delete
                                     </button>

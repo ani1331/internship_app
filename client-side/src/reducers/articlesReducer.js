@@ -1,6 +1,6 @@
 import { RECEIVE_ARTICLES, ADD_ARTICLE, REMOVE_ARTICLE, REPLACE_ARTICLE } from '../actions';
 
-const initialState = { articles: [] }
+const initialState = { articles: [] };
 export default function articlesReducer(state = initialState, action) {
   switch (action.type) {
     case RECEIVE_ARTICLES:

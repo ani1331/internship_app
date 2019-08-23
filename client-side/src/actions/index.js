@@ -65,14 +65,14 @@ export const deleteArticle = (id) => {
 export const updateArticle = (article) => {
   const articleId = article.id;
   return (dispatch) => {
-    return axios.put(`${apiUrl}/${article.id}.json`, {first_name: article.first_name, last_name: article.last_name, email: article.email})
+    return axios.put(`${apiUrl}/${article.id}`, {first_name: article.first_name, last_name: article.last_name, email: article.email})
       .then(response => {
         const data = response.data;
         dispatch({type: UPDATE_ARTICLE, payload: {id: data.id, first_name: data.first_name, last_name: data.last_name, email: data.email}})
         dispatch({type: REPLACE_ARTICLE, payload: {id: data.id, first_name: data.first_name, last_name: data.last_name, email: data.email}})
       })
       .then(() => {
-        history.push(`/contact/${articleId}`)
+        history.push(`/contact/`)
       })
       .catch(error => { throw(error) });
   };

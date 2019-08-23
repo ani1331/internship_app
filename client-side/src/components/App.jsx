@@ -33,7 +33,7 @@ const Main = () => (
     <Route exact path="/" component={ArticleList} />
     <Route exact path="/contact" component={ArticleList} />
     <Route exact path="/contact/new" component={ArticleAdd} />
-    <Route exact path="/contact/:id" component={ArticleEdit} />
+    <Route  path="/contact/:id" component={ArticleEdit} />
   </Switch>
 );
 

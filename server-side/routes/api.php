@@ -14,13 +14,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//'middleware' => 'auth:api'
+
 Route::group(['prefix' => 'contact'], function() {
     Route::get('/', 'ContactController@index');
     Route::get('{id}', 'ContactController@show');
     Route::post('/', 'ContactController@store');
     Route::put('{id}', 'ContactController@update');
     Route::delete('{id}', 'ContactController@destroy');
-
 });
 
 
