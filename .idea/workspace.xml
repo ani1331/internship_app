@@ -3,11 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="c4771c93-eeef-4021-9c4c-a5865b52df3d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-side/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-side/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-side/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/actions/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-side/src/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/components/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-side/src/components/ArticleList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/components/ArticleList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-side/src/stylesheets/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/stylesheets/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-side/src/components/ArticleAdd.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/components/ArticleAdd.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-side/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-side/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/app/Http/Controllers/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/app/Http/Controllers/ContactController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -319,7 +321,11 @@
       <workItem from="1566492902780" duration="149000" />
       <workItem from="1566493249347" duration="32000" />
       <workItem from="1566493336553" duration="2954000" />
-      <workItem from="1566509948887" duration="14594000" />
+      <workItem from="1566509948887" duration="17354000" />
+      <workItem from="1566744455442" duration="2236000" />
+      <workItem from="1566747521977" duration="2936000" />
+      <workItem from="1566753978232" duration="6449000" />
+      <workItem from="1566765303544" duration="1973000" />
     </task>
     <servers />
   </component>

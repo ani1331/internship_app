@@ -45,7 +45,7 @@ class ArticleList extends Component {
                 </div>
             )
         } else {
-            return (<div>No Articles</div>)
+            return (<div>No Users</div>)
         }
     }
 }
